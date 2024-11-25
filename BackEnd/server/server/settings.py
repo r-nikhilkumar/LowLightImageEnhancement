@@ -25,7 +25,8 @@ SECRET_KEY = 'django-insecure-xhwomu57wpdw!h95#(s3wtpqszg7&+-in2tc7mag^fqanjs$1x
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['image-enhancer-bhit.onrender.com', 'localhost', '127.0.0.1']
+
 
 
 # Application definition
