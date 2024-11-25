@@ -29,7 +29,7 @@ function Upload() {
       formData.append("image", dataURLToFile(selectedImage, "image.png"));
 
       // Send request to backend
-      const response = await fetch("http://localhost:8000/api/predict/", {
+      const response = await fetch("https://image-enhancer-bhit.onrender.com/api/predict/", {
         method: "POST",
         body: formData,
       });

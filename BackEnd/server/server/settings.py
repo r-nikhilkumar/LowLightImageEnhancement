@@ -128,11 +128,11 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-# CORS_ALLOWED_ORIGINS = [
-#     "https://yourfrontenddomain.com",  # Replace with your frontend domain
-#     "http://localhost:5173",
-#     "https://image-enhancer-bhit.onrender.com",
-#     'http://localhost:3000',# For local development
-# ]
+CORS_ALLOWED_ORIGINS = [
+    "https://yourfrontenddomain.com",  # Replace with your frontend domain
+    "http://localhost:5173",
+    "https://image-enhancer-bhit.onrender.com",
+    'http://localhost:3000',# For local development
+]
 CORS_ALLOW_ALL_ORIGINS = True
 CORS_ALLOW_CREDENTIALS = True  # If you need to allow cookies or authentication
